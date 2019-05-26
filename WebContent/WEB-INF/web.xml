@@ -79,4 +79,14 @@
     <servlet-name>ViewReport</servlet-name>
     <url-pattern>/ViewReport</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ProcessSalary</display-name>
+    <servlet-name>ProcessSalary</servlet-name>
+    <servlet-class>com.dms.servlets.ProcessSalary</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProcessSalary</servlet-name>
+    <url-pattern>/ProcessSalary</url-pattern>
+  </servlet-mapping>
 </web-app>
